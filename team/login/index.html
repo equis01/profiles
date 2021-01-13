@@ -24,8 +24,8 @@
   </span>
 
   <form action="/team/accounts/" method="GET">
-    <input type="user" name="user" placeholder="Username">
-    <input type="pass" name="pass" placeholder="Password">
+    <input type="user" name="user" placeholder="Username" required>
+    <input type="pass" name="pass" placeholder="Password" required>
                             <div class="button">
                                 <input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/>
                             </div>
@@ -45,7 +45,7 @@
   </span>
 
   <form>
-    <input type="text" name="captcha" placeholder="Type: UVA Music">
+    <input type="text" name="captcha" placeholder="Type: UVA Music" required>
     <a href="/team/change-password/" class="orange-btn">Get new password</a>
 </form>
 </div>
