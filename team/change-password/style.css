@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Condensed|Lora');
+html, body {
+  background-color: #CEDEDE;
+}
+p {
+  font-family: 'Lora', serif;
+  font-size: 28px;
+  letter-spacing: 5px;
+  color: #4c4c4c;
+}
+/* image */
+img {
+  float: left;
+  height: 100%;
+}
+input {
+  font-size: 10px;
+  padding: 15px 10px 10px;
+  font-family: 'Roboto', serif;
+  border: 1px solid #cecece;
+  background: #F3F5F6;
+  color:#4c4c4c;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  box-sizing: border-box;
+  width: 200px;
+  max-width: 600px;
+}
+button {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  background-color: #CBDFE0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 70px;
+  padding-left: 35px;
+  border-radius: 5px;
+  border: 1px solid #CBDFE0;
+  transition: .5s;
+  cursor: pointer;
+  width: 30%;
+  color: #fff;
+}
+button:hover {
+  background: #3A9497;
+}
+/* main container */
+.container {
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* text container */
+.text-container {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 297px;
+}
+.title-container {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 60px;
+  height: 70px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 2px -2px #BCD0CE;
+}
+.p1-container {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 150px;
+  height: 70px;
+  width: 200px;
+  text-align: center;
+}
+.p2-container {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 240px;
+  height: 70px;
+  width: 200px;
+  text-align: center;
+}
+.logo-container {
+  position: absolute;
+  margin: auto;
+  bottom: 0;
+  left: 15px;
+}
+.icons-container {
+  position: absolute;
+  margin: auto;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 300px;
+}
+.fa-facebook-square {
+  margin-left: 70px;
+}
+.fa {
+  text-align: center;
+  cursor: pointer;
+  padding-right: 50px;
+}
+.fa:hover {
+  color: #3A9497;
+}
