@@ -23,11 +23,10 @@
     <img src="https://cdn4.iconfinder.com/data/icons/miu/22/circle_close_delete_-128.png"></img>
   </span>
 
-  <form name="login-team" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+  <form action="/team/accounts/" method="GET">
     <input type="user" name="user" placeholder="Username" required>
     <input type="pass" name="pass" placeholder="Password" required>
     <input type="hidden" name="form-name" value="login-team">
-      <div data-netlify-recaptcha="true"></div>
                             <div class="button">
                                 <input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/>
                             </div>
